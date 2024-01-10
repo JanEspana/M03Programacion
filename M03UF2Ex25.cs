@@ -15,7 +15,7 @@ namespace Binario
             {
                 return 0;
             }
-            return ;
+            return num%2 + 10 * Binario(num/2);
         }
     }
 }
